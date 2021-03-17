@@ -1,4 +1,0 @@
-#
-#Wed Mar 17 22:44:47 CET 2021
-com.example.demo.CamelRoute=org.springframework.stereotype.Component
-com.example.demo.DemoApplication=org.springframework.stereotype.Component
