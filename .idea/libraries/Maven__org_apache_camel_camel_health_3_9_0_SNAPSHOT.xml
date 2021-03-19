@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.camel:camel-health:3.9.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-health/3.9.0-SNAPSHOT/camel-health-3.9.0-20210318.025240-153.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-health/3.9.0-SNAPSHOT/camel-health-3.9.0-20210318.025240-153-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-health/3.9.0-SNAPSHOT/camel-health-3.9.0-20210318.025240-153-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

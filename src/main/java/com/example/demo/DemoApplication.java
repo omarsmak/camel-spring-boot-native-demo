@@ -7,7 +7,9 @@ import org.springframework.nativex.hint.NativeHint;
 import org.springframework.nativex.hint.ResourceHint;
 import org.springframework.nativex.hint.TypeHint;
 
-@TypeHint(typeNames = "org.apache.camel.spring.boot.util.ConditionalOnCamelContextAndAutoConfigurationBeans", access = AccessBits.ALL)
+// Manual hints have been disabled in favor of using GraalVM tracing agent to generate configs
+
+/*@TypeHint(typeNames = "org.apache.camel.spring.boot.util.ConditionalOnCamelContextAndAutoConfigurationBeans", access = AccessBits.ALL)
 @TypeHint(typeNames = "org.apache.camel.spring.boot.util.ConditionalOnCamelContextAndAutoConfigurationBeans$OnCamelAutoConfiguration", access = AccessBits.ALL)
 @TypeHint(typeNames = "org.apache.camel.spring.boot.util.ConditionalOnCamelContextAndAutoConfigurationBeans$OnCamelContext", access = AccessBits.ALL)
 @TypeHint(typeNames = "org.apache.camel.converter.stream.StreamCacheBulkConverterLoader", access = AccessBits.ALL)
@@ -22,7 +24,7 @@ import org.springframework.nativex.hint.TypeHint;
 @TypeHint(typeNames = "org.apache.camel.processor.DefaultInternalProcessorFactory", access = AccessBits.ALL)
 @ResourceHint(patterns = "org/apache/camel/main/components.properties")
 @ResourceHint(patterns = "org/apache/camel/main/dataformats.properties")
-@ResourceHint(patterns = "org/apache/camel/main/languages.properties")
+@ResourceHint(patterns = "org/apache/camel/main/languages.properties")*/
 @SpringBootApplication
 public class DemoApplication {
 

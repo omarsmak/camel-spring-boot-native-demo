@@ -8,7 +8,8 @@ public class CamelRoute extends EndpointRouteBuilder {
 
     @Override
     public void configure() throws Exception {
-        System.out.println("ssss");
+        System.out.println("Starting Camel route!");
+
         from(timer("foo").period(1000))
                 .log("Hello World From Camel SpringBoot");
     }
